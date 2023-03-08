@@ -6,5 +6,5 @@ if [[ $? != 0 ]]; then
 	echo -e "Error: \n$output"
 else
 	# success
-	./a.out
+	./out.sh $SRC_NAME
 fi
